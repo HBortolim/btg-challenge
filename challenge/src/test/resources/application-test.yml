@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: BtgChallenge-Test
+server:
+  servlet:
+    context-path: /api
+game-api:
+  url: https://api.sampleapis.com/playstation/games
+jwt:
+  secret: test-secret-key-for-unit-tests-that-is-long-enough-256-bits
+  expiration: 3600
